@@ -1,0 +1,22 @@
+.site-logo {
+    
+    font-size: 1.2em;
+ }
+
+.container-flurid {
+   background-color: var(--secondary-color);
+}
+    
+ 
+
+ p{
+    color: var(--primary-color);
+ }
+
+ /* .foot{
+   background-color: gray;
+   padding: 5px 20px;
+    border-radius: 20px;
+    
+    color: var(--navbar-footer-color);
+ } */

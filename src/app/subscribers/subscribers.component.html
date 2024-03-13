@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card bg-secondary-theme">
+                <div class="card-body text-center">
+                    <h3 class="text-theme-center">subscribers</h3>
+                    <p>From here you can manage your  subscribers</p>
+
+                    
+                    <button class="btn btn-warning ml-2" routerLink="/">Back to Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table row-border hover">
+                        <thead class="text-center">
+                            <tr>
+                                <th>No.</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <!-- <th>Excerpt</th> -->
+                                
+                            
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr *ngFor="let subscriber of subscribersArray; let i= index">
+                                <td >{{ i+1}}</td>
+                                <td > {{ subscriber.data.name}}</td>
+                                <td >{{ subscriber.data.emailxzzz   }}</td>
+                                <!-- <td [width]="300">{{post.data.excerpt}}</td> -->
+                                <td ></td>
+
+                                <td>
+                                   
+                                    <button class="btn btn-sm btn-danger ml-2" (click)="onDelete(subscriber.id)">Delete</button>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

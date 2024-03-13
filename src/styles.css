@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import "~ngx-toastr/toastr";
+
+:root {
+    --primary-color: #003566;
+    --secondary-color: #e5e5e5;
+    --body-text-color: #ffc300;
+    --navbar-footer-color: #001d3d;
+}
+
+.site-logo {
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: var(--body-text-color);
+    
+ }
+
+ .app-body {
+    margin-top: 110px;
+    min-height: 60vh;
+ }
+
+ .shadow-effect {
+    border: none;
+    box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+}
+
+.bg-theme {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary-theme {
+    background-color: var(--navbar-footer-color);
+}
+

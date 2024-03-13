@@ -1,0 +1,9 @@
+button {
+    background-color: var(--body-text-color);
+    color: var(--navbar-footer-color);
+    height: 50px;
+}
+
+input[type = text] {
+  height: 50px;
+}

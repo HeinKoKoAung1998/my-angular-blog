@@ -1,0 +1,12 @@
+button {
+    color: var(--primary-color);
+    background-color: var(--body-text-color);
+}
+
+.card-body {
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+}
